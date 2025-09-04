@@ -1,22 +1,21 @@
-# Module-3
-# 🧹 Strings-Remove Nth Index Character from a String
+## AIM
+To Write a non fruitful and non parameterized function to get two lists and extend the second list with the first and print the resultant list.
 
-## 🎯 Aim
-To write a Python program that accepts a string and removes the character at a specified index.
+## ALGORITHM
+```
+Step 1: Start the program. Step 2: Take the necessary input(s) from the user. Step 3: Process the input(s) using suitable operations or conditions. Step 4: Display the result/output to the user. Step 5: Stop the program.
+```
+## PROGRAM
+def extendlist():
+    a = eval(input())
+    b = eval(input())
+    res=b+a
+    print("List1=",a)
+    print("List2=",res)
+    print(f"Resultant List={res}")
 
-## 🧠 Algorithm
-1. Define a function named `remove` that takes the input string as an argument.
-2. Read the index `n` from the user input.
-3. Initialize an empty string `a` to store the new string.
-4. Iterate over each index of the string using a `for` loop.
-5. Check if the current index `i` is not equal to `n`.
-6. If `i != n`, append the character at index `i` to string `a`.
-7. After the loop, return the modified string `a`.
-8. Print the final result.
 
-## 💻 Program
-Add Code Here
-
-## Output
-
-## Result
+## OUTPUT
+<img width="917" height="347" alt="image" src="https://github.com/user-attachments/assets/01f55927-5905-48ee-a7c5-9e3e9dd80fa1" />
+## RESULT
+Theprogram was successfully executed
