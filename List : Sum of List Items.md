@@ -1,17 +1,25 @@
-# List Operations in Python: Sum of List Items
+## AIM
+To Write a python function "remove" that accepts a string and removes all the vowels from the string.
 
-## 🎯 Aim
-To write a Python program that calculates the **sum of all elements** in a list.
+## ALGORITHM
+```
+Step 1: Start the program. Step 2: Take the necessary input(s) from the user. Step 3: Process the input(s) using suitable operations or conditions. Step 4: Display the result/output to the user. Step 5: Stop the program.
+```
 
-## 🧠 Algorithm
-1. Define a list of numbers.
-2. Use Python’s built-in `sum()` function to calculate the total.
-3. Print the result.
+## PROGRAM
+```
+def remove(s):
+    vowels = "aeiouAEIOU"
+    result = ""
+    for char in s:
+        if char not in vowels:
+            result += char
+    return result
+```
 
-## 🧾 Program
 
-Add code here
+## OUTPUT
+<img width="843" height="300" alt="image" src="https://github.com/user-attachments/assets/883958f3-8154-45e0-9807-23e77614e8ab" />
 
-## Output
-
-## Result
+## RESULT
+Theprogram was successfully executed
