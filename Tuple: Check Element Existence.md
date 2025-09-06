@@ -1,17 +1,24 @@
-# Tuple in Python: Check Element Existence
+## AIM
+To Write a python function that get two tuples, slice the second tuple elements between the indices 1 and 3. Also add that sliced tuple to the first tuple.
 
-## 🎯 Aim
-To write a Python program that checks if the element `'n'` and the element `8` exist within a given tuple.
+## ALGORITHM
+Step 1: Start the program. Step 2: Take the necessary input(s) from the user. Step 3: Process the input(s) using suitable operations or conditions. Step 4: Display the result/output to the user. Step 5: Stop the program.
 
-## 🧠 Algorithm
-1. Define a tuple `x` with some letters and numbers.
-2. Use the `in` operator to check if the string `'n'` exists within the tuple.
-3. Use the `in` operator to check if the integer `8` exists within the tuple.
-4. Print the results.
+## PROGRAM
+def tuples():
+    tuple1 = eval(input())
+    tuple2 = eval(input())
 
-## 🧾 Program
-Add code here
+    # Extract first two elements from tuple2 and combine with all of tuple1
+    result = tuple2[1:3] + tuple1
 
-## Output
+    print("tuple1=" + str(tuple1))
+    print("tuple2=" + str(tuple2))
+    print("Resultant tuple=" + str(result))
 
-## Result
+
+## OUTPUT
+<img width="922" height="337" alt="image" src="https://github.com/user-attachments/assets/abfa4bcf-5f48-4e81-9eef-89f5357f93de" />
+
+## RESULT
+Theprogram was successfully executed 
