@@ -1,20 +1,23 @@
-# Strings-Palindrome Check in Python (Without Built-in Functions)
+## AIM
+To Write a python program to define a function that accepts 3 values and return its multiplication.
 
-## 🎯 Aim
-To write a Python program to check whether the string `"google"` is a **palindrome** or not, without using built-in palindrome checking functions.
+## ALGORITHM
+Step 1: Start the program. Step 2: Take the necessary input(s) from the user. Step 3: Process the input(s) using suitable operations or conditions. Step 4: Display the result/output to the user. Step 5: Stop the program.
 
-## 🧠 Algorithm
-1. Assign the string `"google"` to a variable.
-2. Reverse the string manually using slicing (`[::-1]`).
-3. Compare the original string with the reversed string.
-   - If they are equal, print that the string is a palindrome.
-   - Otherwise, print that it is not a palindrome.
-4. Execute the program.
+## PROGRAM
+def mul(a,b,c):
+    return d
+    
+    
+    
+a=int(input())
+b=int(input())
+c=int(input())
+d=a*b*c
+print("Multiply is",d)
 
-## 🧾 Program
+## OUTPUT
+<img width="803" height="372" alt="image" src="https://github.com/user-attachments/assets/e6b2129e-ce75-4fd6-9324-0987f198bed2" />
 
-Add code here
-
-## Output
-
-## Result
+## RESULT
+The program was successfully executed
